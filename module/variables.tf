@@ -1,9 +1,5 @@
-variable "profile" {
-  description = "your aws profile"
-}
-
-variable "region" {
-  description = "aws region"
+variable "vpc_name" {
+  description = "your vpc name"
 }
 
 variable "cidr_block" {
